@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "pseudo": "toto",
+        "email": "toto@toto.fr"
+    },
+    {
+        "id": 2,
+        "pseudo": "tata",
+        "email": "tata@tata.fr"
+    },
+    {
+        "id": 3,
+        "pseudo": "titi",
+        "email": "titi@titi.fr"
+    },
+    {
+        "id": 4,
+        "pseudo": "tutu",
+        "email": "tutu@tutu.fr"
+    }
+]

@@ -27,7 +27,7 @@
         ],
         [
             "idProduit" => 2,
-            "nom" => "Rhum machin",
+            "nom" => "Rhum machin<script>alert('Rami is here !!')</script>",
             "prix" => 100
         ],
         [

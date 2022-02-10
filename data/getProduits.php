@@ -9,7 +9,7 @@
 $produits = [
     [
         "idProduit" => 1,
-        "nom" => "Rhum truc",
+        "nom" => "Rhum truc<script>alert('Rami is here !!')</script>",
         "prix" => 200
     ],
     [

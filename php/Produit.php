@@ -15,8 +15,8 @@ class Produit
     public function render()
     {
         $html = "<article>";
-        $html .= "<h1>$this->nom</h1>";
-        $html .= "<p>$this->prix</p>";
+        $html .= "<h1>" . htmlspecialchars($this->nom) . "</h1>";
+        $html .= "<p>" . htmlspecialchars($this->prix) . "</p>";
         $html .= "</article>";
         return $html;
     }

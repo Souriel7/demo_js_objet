@@ -1,0 +1,12 @@
+[
+    {
+        "idProduit": 1,
+        "nom": "Rhum truc",
+        "prix": 200
+    },
+    {
+        "idProduit": 2,
+        "nom": "Rhum machin",
+        "prix": 100
+    }
+]

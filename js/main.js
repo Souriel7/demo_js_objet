@@ -1,18 +1,24 @@
 import User from "./User.js";
+import Salarie from "./Salarie.js";
 
-const response = await fetch("data/data.json");//on récupère les données
-const users = await response.json();// on encode les données au format json
+// const response = await fetch("data/data.json");//on récupère les données
+// const users = await response.json();// on encode les données au format json
 
-users.forEach(user => {
-    // affichage sans classe User
-    // const article = afficherUser(user);//on crée un article pour chaque user
-    // document.body.appendChild(article);//on affiche l'article dans la page
+// users.forEach(user => {
+//     // affichage sans classe User
+//     // const article = afficherUser(user);//on crée un article pour chaque user
+//     // document.body.appendChild(article);//on affiche l'article dans la page
 
-    // affichage avec classe User
-    const currentUser = new User(user.id, user.pseudo, user.email);
-    const article = currentUser.render();
-    document.body.appendChild(article);
-});
+//     // affichage avec classe User
+//     const currentUser = new User(user.id, user.pseudo, user.email);
+//     const article = currentUser.render();
+//     document.body.appendChild(article);
+// });
+
+const charles = new Salarie(2, "charles", "charles@charles.fr", 2000);
+console.log(charles);
+const articleCharles = charles.render();
+document.body.appendChild(articleCharles);
 
 
 // function afficherUser(user) {
